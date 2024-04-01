@@ -1450,13 +1450,12 @@ ul, li, ol {
   background: #fff;
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  padding: 22px 24px 24px;
+  padding: 18px 24px;
   transition-duration: 0.4s;
   transition-property: max-height;
   transition-timing-function: ease;
   transition-delay: 0s;
   transition-behavior: normal;
-  max-height: 58px;
   overflow-x: hidden;
   overflow-y: hidden;
   cursor: pointer;
@@ -1467,6 +1466,19 @@ ul, li, ol {
 }
 #section13 .clip {
   margin-top: -5px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+#section13 .clip::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/section13/down.ad.png);
+  background-size: 24px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
 }
 #section13 .clip p {
   margin-right: 33px;
@@ -1476,15 +1488,22 @@ ul, li, ol {
   letter-spacing: -0.6px;
   color: #242424;
 }
-#section13 .clip, #section13 .panel {
-  padding: 5px;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
+#section13 .clip:active::before {
+  content: "";
+  background-image: url(../img/section13/up.png);
 }
 #section13 .panel {
-  padding: 50px;
+  padding: 20px;
   display: none;
+  border-top: 1px solid #242424;
+  margin-top: 24px;
+}
+#section13 .panel p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  color: #555;
+  padding-top: 16px;
 }
 
 footer {
