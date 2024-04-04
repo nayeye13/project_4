@@ -166,9 +166,12 @@ ul, li, ol {
   overflow-x: hidden;
   height: 100%;
 }
-#section2 .s1_text {
+#section2 .s2_text {
   margin-top: 88px;
   padding: 0 48px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section2 h1 {
   color: transparent;
@@ -200,6 +203,9 @@ ul, li, ol {
 }
 #section3 .s3_text {
   text-align: center;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section3 h1 {
   font-size: 49px;
@@ -226,6 +232,9 @@ ul, li, ol {
   margin-top: 59px;
   padding-bottom: 32px;
   grid-template-columns: 1fr 1fr;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section3 .s1_list_box1 li {
   padding: 32px;
@@ -331,6 +340,9 @@ ul, li, ol {
 }
 #section4 .s4_text {
   margin-bottom: 60px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section4 h1 {
   font-size: 49px;
@@ -403,6 +415,11 @@ ul, li, ol {
   max-width: 100%;
   background-color: #f7f7f7;
 }
+#section5 .s5_text {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #section5 h1 {
   font-size: 49px;
   text-align: center;
@@ -440,6 +457,9 @@ ul, li, ol {
 }
 #section6 .s6_text {
   margin-bottom: 60px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section6 h1 {
   font-size: 49px;
@@ -524,6 +544,9 @@ ul, li, ol {
 }
 #section7 .s7_text {
   box-sizing: border-box;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section7 .s7_text h1 {
   font-size: 49px;
@@ -574,6 +597,9 @@ ul, li, ol {
   line-height: 32px;
   color: #333;
   margin-top: 12px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section7 .card1 img {
   max-width: 1060px;
@@ -592,6 +618,9 @@ ul, li, ol {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   padding-top: 80px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section7 .caed2_1 {
   width: 327px;
@@ -627,6 +656,9 @@ ul, li, ol {
 }
 #section8 .s8_text {
   margin-bottom: 60px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section8 h1 {
   font-size: 49px;
@@ -749,6 +781,11 @@ ul, li, ol {
   max-width: 834px;
   margin: 0 auto;
 }
+#section9 .s9_text {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #section9 .s9_card1 {
   top: 50%;
   left: -10%;
@@ -843,6 +880,9 @@ ul, li, ol {
 }
 #section10 .s10_text {
   margin-bottom: 60px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section10 h1 {
   font-size: 49px;
@@ -1135,6 +1175,11 @@ ul, li, ol {
 }
 #section11 #bran.active {
   background-color: #f7f7f7;
+}
+#section11 .s11_text {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section11 .s11_wrap {
   padding: 120px 142px;
@@ -1435,6 +1480,9 @@ ul, li, ol {
 #section12 .s12_text {
   padding-top: 80px;
   margin-left: auto;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #section12 h2 {
   font-weight: 700;
