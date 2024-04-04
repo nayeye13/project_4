@@ -98,9 +98,6 @@ ul, li, ol {
   cursor: pointer;
   background-color: transparent;
   outline: 0;
-  -webkit-appearance: button;
-     -moz-appearance: button;
-          appearance: button;
   border: 0;
   color: #242424;
 }
@@ -250,7 +247,6 @@ ul, li, ol {
   position: relative;
   color: #aa8525;
   font-size: 12px;
-  line-height: -0.6px;
   font-weight: 400;
 }
 #section3 .s1_list_box2 li::before {
@@ -603,7 +599,7 @@ ul, li, ol {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.1);
   background-image: url(../img/section7/02.png);
   background-size: contain;
-  background-color: none;
+  background-color: transparent;
   background-repeat: no-repeat;
 }
 #section7 .caed2_2 {
@@ -1493,7 +1489,6 @@ ul, li, ol {
   transition-property: max-height;
   transition-timing-function: ease;
   transition-delay: 0s;
-  transition-behavior: normal;
   overflow-x: hidden;
   overflow-y: hidden;
   cursor: pointer;
