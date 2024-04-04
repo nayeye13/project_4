@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #242424;
+  letter-spacing: -0.5px;
+}
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
@@ -39,13 +46,6 @@
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
   font-weight: 900;
   font-style: normal;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #242424;
-  letter-spacing: -0.5px;
 }
 
 a {
@@ -1095,7 +1095,7 @@ ul, li, ol {
   display: flex;
   flex-direction: row;
 }
-#section11 #audi:active {
+#section11 #audi.active {
   background-color: #f7f7f7;
 }
 #section11 #audi {
@@ -1137,11 +1137,11 @@ ul, li, ol {
   top: 25%;
   transform: translate(-52%);
 }
-#section11 #bran:active {
+#section11 #bran.active {
   background-color: #f7f7f7;
 }
 #section11 .s11_wrap {
-  padding: 70px 142px;
+  padding: 120px 142px;
   position: relative;
   max-width: 1440px;
   overflow-y: hidden;
@@ -1192,6 +1192,38 @@ ul, li, ol {
   position: absolute;
   max-width: 1156px;
   width: 27%;
+  height: 350px;
+}
+#section11 .text_veiw {
+  flex: 1;
+  margin-bottom: 30%;
+  position: relative;
+  min-width: 171px;
+}
+#section11 .text_veiw::before {
+  background-image: url(../img/section11/viewer-icon.png);
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-size: 44px;
+  position: absolute;
+  left: 24px;
+  top: -70px;
+  transform: translate(-50%);
+}
+#section11 .text_veiw h2 {
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin-bottom: 16px;
+}
+#section11 .text_veiw p {
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: -0.6px;
+  color: #555;
 }
 #section11 .p_swiper {
   position: absolute;
@@ -1263,6 +1295,9 @@ ul, li, ol {
   background-size: cover;
   box-shadow: 10px 10px 28px #bababa, -10px -10px 28px #ffffff;
 }
+#section11 .swiper-horizontal > .swiper-pagination-bullets, #section11 .swiper-pagination-bullets.swiper-pagination-horizontal, #section11 .swiper-pagination-custom, #section11 .swiper-pagination-fraction {
+  top: 40px;
+}
 #section11 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -1302,6 +1337,9 @@ ul, li, ol {
 #section11 .clli {
   font-size: 22px;
   line-height: 80%;
+}
+#section11 .clli:not(:first-of-type) {
+  display: none;
 }
 #section11 .clli h5 {
   font-weight: 700;
@@ -1479,6 +1517,7 @@ ul, li, ol {
   position: absolute;
   right: 20px;
   top: 16px;
+  background-repeat: no-repeat;
 }
 #section13 .clip p {
   margin-right: 33px;
@@ -1488,9 +1527,10 @@ ul, li, ol {
   letter-spacing: -0.6px;
   color: #242424;
 }
-#section13 .clip:active::before {
+#section13 .clip.active {
   content: "";
   background-image: url(../img/section13/up.png);
+  background-repeat: no-repeat;
 }
 #section13 .panel {
   padding: 20px;
