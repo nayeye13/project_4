@@ -1700,6 +1700,10 @@ footer .foo_in p {
   min-height: 56px;
 }
 
+a {
+  color: #fff;
+}
+
 b {
   font-weight: 700;
   color: #fff;

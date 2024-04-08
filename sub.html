@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/sub.css">
+   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+   
+        
+            <section id="section1">
+               <div class="s1_wrap">
+                  <div class="section1_p1">
+                     <a href="index.html" class="aa"><img src="img/logo/full-logo.png" alt="로고"></a>
+                  </div>
+                  <button type="button" class="s1_bt">
+                     <span>메뉴 열기</span>
+                  </button>
+                  <div class="s1_nav">
+                     <nav class="s1_nn">
+                        <ul class="s1_nna">
+                           <li><a href="index.html">기업문의</a></li>
+                           <li><a href="index.html">회사소개</a></li>
+                           <li><a href="index.html">계정관리</a></li>
+                        </ul>
+                     </nav>
+                     <button class="login">로그인</button>
+                  </div>
+               </div>
+            </section>
+
+         
+
+         <section id="b1_wrap">
+            <div class="book_main_title">
+               <div class="book_title">
+                  <div class="book_title_text">
+                     <ul>
+                        <li>블랙 쇼맨과 운명의 바퀴</li>
+                        <li>|</li>
+                        <li>히가시노 게이고 저</li>
+                     </ul>
+                  </div>
+                  <div class="book_title_me">
+                     <ul>
+                        <li>국내 도서</li>
+                        <li>></li>
+                        <li>소설</li>
+                        <li>></li>
+                        <li>일본 소설</li>
+                        <li>></li>
+                        <li>추리/미스터리</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="book_title_int">
+                  <div class="book_page_wrap">
+                     <div class="book_pi_wrap">
+                        <div class="book_pic">
+                           <img src="img/book/front.jpg" alt="앞표지">
+                        </div>
+                     </div>
+                     <div class="butt">
+                        <button type="button" class="btt"><img src="img/sub_icon/search.png" alt="i">크게보기</button>
+                        <button type="button" class="bttt"><img src="img/sub_icon/book.png" alt="i">미리보기</button>
+                     </div>
+                  </div>
+                  <div class="book_price">
+                     <div class="book_in">
+                        <ul>
+                           <li>베스트셀러</li>
+                           <li>소득공제</li>
+                           <li>무료배송</li>
+                        </ul>
+                        <p>블랙 쇼맨 시리즈</p>
+                     </div>
+                     <div class="book_into">
+                        <ul>
+                           <li>저자 : 히가시노 게이고</li>
+                           <li>|</li>
+                           <li>역자 : 최고은</li>
+                           <li>|</li>
+                           <li>출판사 : 알에이치코리아</li>
+                           <li>|</li>
+                           <li>발행 : 2024년 03월 02일</li>
+                           <li>|</li>
+                           <li>쪽수 : 292p</li>
+                           <li>|</li>
+                           <li>ISBN : 9788925575360</li>
+                        </ul>
+                     </div>
+                     <div class="bok_price">
+                        <div class="price">
+                           <span class="p_s1">정가</span>
+                           <strong class="p_st1">19,800</strong>원
+                           <span class="p_s2">판매가</span>
+                           <strong class="p_st2">17,820</strong><span class="pp1">원</span>
+                           <span class="p_s3">(30%할인)</span>
+                        </div>
+                        <div class="dd">
+                           <span class="dd1">적립금</span>
+                           <strong class="dd2">990</strong>
+                           원(5%)
+                        </div>
+                        <div class="bb">
+                           <span class="bb1">배송일정</span>
+                           <span class="bb2">오늘수령가능
+                              <br>
+                              <strong class="bbb1">주문 수량 변경시 안내
+                              </strong>
+                              <strong class="bbb2">당일배송 안내</strong>
+                              <strong class="bbb3">배송안내</strong>
+                           </span>
+                        </div>
+                        <div class="cupon">
+                           <span class="cu">쿠폰 및 결제혜택</span>
+                           <strong class="cu1">확인하기</strong>
+                        </div>
+                     </div>
+                     <div class="bok_bt">
+                        <button type="button" class="bt1">선물하기 <img src="img/sub_icon/free-icon-font-gift.png"
+                              alt="icon"></button>
+                        <button type="button" class="bt2">장바구니 <img src="img/sub_icon/free-icon-font-shopping-cart.png"
+                              alt="icon"></button>
+                        <button type="button" class="bt3">바로구매</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+
+         <script>
+
+            $('.book_pi_wrap').click(function () {
+               $('.book_pic').toggleClass('rotate');
+            });
+
+         </script>
+
+
+         <!-- 슬라이드 -->
+         <section id="b2_wrap">
+            <div class="banner"><img src="img/higa/banner.png" alt=""></div>
+            <h2>북 카드</h2>
+            <hr>
+            <div class="slide_wrap">
+               <!-- Swiper -->
+               <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <img src="img/card/01.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/02.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/03.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/04.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/05.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/06.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/07.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/08.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/09.jpg" alt="im" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/card/10.jpg" alt="im" />
+                     </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-scrollbar"></div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+               var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 1,
+                  centeredSlides: false,
+                  slidesPerGroupSkip: 1,
+                  grabCursor: true,
+                  keyboard: {
+                     enabled: true,
+                  },
+                  breakpoints: {
+                     769: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 2,
+                     },
+                  },
+                  scrollbar: {
+                     el: ".swiper-scrollbar",
+                  },
+                  navigation: {
+                     nextEl: ".swiper-button-next",
+                     prevEl: ".swiper-button-prev",
+                  },
+                  pagination: {
+                     el: ".swiper-pagination",
+                     clickable: true,
+                  },
+               });
+            </script>
+         </section>
+         <!-- 책 상세 페이지 -->
+         <section id="b3_wrap">
+            <div class="bttt1">
+               <h2>책 소개 </h2>
+               <hr>
+               <br>
+               <div id="txt_box1"></div>
+               <button type="button" class="btnn1">펼쳐보기</button>
+            </div>
+            <div class="bttt2">
+               <h2>출판사 서평</h2>
+               <hr>
+               <div id="txt_box2"></div>
+               <button type="button" class="btnn2">펼쳐보기</button>
+            </div>
+            <div class="bttt3">
+               <div class="writer_wrap">
+                  <div>
+                     <h2>저자 및 역자 소개</h2>
+                     <hr>
+                     <div class="writer_box1">
+                        <div class="wt1">
+                           <h4>히가시노 게이고 (東野圭吾) (저자)</h4>
+                           <p>작가파일</p>
+                           <p>신간알림 신청</p>
+                        </div>
+                        <div class="int_wr">
+                           <img src="img/higa/pic.jpg" alt="w">
+                           <div id="txt_box3_1"></div>
+                        </div>
+                        <button type="button" class="btnn3_1">펼쳐보기</button>
+                     </div>
+                     <div class="writer_box2">
+                        <div class="wt2">
+                           <h4>최고은 (옮긴이)</h4>
+                           <p>작가파일</p>
+                           <p>신간알림 신청</p>
+                        </div>
+                        <div id="txt_box3_2"></div>
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+            <div class="bttt4">
+               <div class="writer_wrap">
+                  <div>
+                     <h2>목차 및 본문</h2>
+                     <hr>
+                     <div id="txt_box4"></div>
+                     <button type="button" class="btnn4">펼쳐보기</button>
+                  </div>
+               </div>
+               <div class="bttt5">
+                  <h2>북 트레일러</h2>
+                     <hr>
+                     <div class="mov">
+                        <iframe width="934" height="524" src="https://www.youtube.com/embed/4cbKhOFdbg0?si=6_vcUWAkWtkZs3xj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     </div>
+               </div>
+            </div>
+
+            <!-- <h1>출판사 제공 책 소개</h1>
+            <div class="pre">
+               <img src="img/higa/new.jpg" alt="책소개">
+            </div> -->
+         </section>
+         <!-- 배송,후기등 -->
+
+
+         <script>
+            $(function () {
+               $.get("./txt/txt1.txt", function (data) {
+                  $("#txt_box1").html(data);
+               })
+               $.get("./txt/txt2.txt", function (data) {
+                  $("#txt_box2").html(data);
+               })
+               $.get("./txt/txt3-1.txt", function (data) {
+                  $("#txt_box3_1").html(data);
+               })
+               $.get("./txt/txt3-2.txt", function (data) {
+                  $("#txt_box3_2").html(data);
+               })
+               $.get("./txt/txt4.txt", function (data) {
+                  $("#txt_box4").html(data);
+               })
+
+            });
+
+
+
+            $(document).ready(function () {
+               $(".btnn1").click(function () {
+                  //   $("#txt_box1").css('height','auto').animate({
+                  //     height: 'toggle'
+                  //   });
+                  if ($("#txt_box1").css('height') == '600px') {
+                     $("#txt_box1").animate({ 'height': '3883px' });
+                     $(this).text('접기')
+                  } else {
+                     $("#txt_box1").animate({ 'height': '600px' })
+                     $(this).text('펼쳐보기')
+                  }
+
+               });
+            });
+
+            $(document).ready(function () {
+               $(".btnn2").click(function () {
+                  if ($("#txt_box2").css('height') == '270px') {
+                     $("#txt_box2").animate({ 'height': '700px' });
+                     $(this).text('접기')
+                  } else {
+                     $("#txt_box2").animate({ 'height': '270px' })
+                     $(this).text('펼쳐보기')
+                  }
+
+               });
+            });
+            $(document).ready(function () {
+               $(".btnn3_1").click(function () {
+                  if ($("#txt_box3_1").css('height') == '270px') {
+                     $("#txt_box3_1").animate({ 'height': '1400px' });
+                     $(this).text('접기')
+                  } else {
+                     $("#txt_box3_1").animate({ 'height': '270px' })
+                     $(this).text('펼쳐보기')
+                  }
+
+               });
+            });
+
+            $(document).ready(function () {
+               $(".btnn4").click(function () {
+                  if ($("#txt_box4").css('height') == '400px') {
+                     $("#txt_box4").animate({ 'height': '1400px' });
+                     $(this).text('접기')
+                  } else {
+                     $("#txt_box4").animate({ 'height': '400px' })
+                     $(this).text('펼쳐보기')
+                  }
+
+               });
+            });
+         </script>
+
+         <section id="b4_wrap">
+            <div class="b4_bo">
+               <h1>이 상품을 구입하신 분들이 다음 상품도 구입하셨습니다.</h1>
+               <div class="b4_con_box1">
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+               <div class="b4_sub_box1"></div>
+            </div>
+            </div>
+            <div class="b4_bo"> 
+               <h1>히가시노 게이고의 대표 저서</h1> 
+               <div class="b4_con_box2">            
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+              <div class="b4_sub_box2"></div>
+             </div>  
+            </div>
+           
+            <div class="list"> 
+               <h1>교환/반품 안내</h1>
+               <table>
+                  <colgroup>
+                  <col width="200">
+                  <col width="750">
+                  </colgroup>
+               <tbody>
+                  <tr>
+                     <th>교환/반품 방법</th>
+                     <td>
+                        <ul>
+                        <li>마이페이지 > 주문관리 > 주문/배송조회 > 주문조회 후  [1:1상담신청]  또는 고객센터 (0000-0000)</li>
+                        <li>※ 오픈마켓, 해외배송 주문상품 문의 시 [1:1상담신청] 또는 고객센터 (0000-0000)</li>
+                     </ul></td>
+                  </tr>
+                  <tr>
+                     <th>교환/반품 가능기간</th>
+                     <td>
+                        <ul>
+                           <li><span></span>변심반품의 경우 수령 후 7일 이내</li>
+                           <li><span></span>상품의 결함 및 계약내용과 다를 경우 문제점 발견 후 30일 이내</li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr><th>교환/반품 비용</th>
+                     <td>
+                        <ul>
+                           <li><span></span>단순변심 혹은 구매착오로 인한 반품/교환은 반송료 고객 부담</li>
+                           <li><span></span>해외직배송 도서 구매 후 단순변심에 의한 취소 및 반품 시 도서판매가의 20% 수수료 부과</li>
+                        </ul>
+                     </td></tr>
+                  <tr><th>교환/반품 불가사유</th>
+                     <td>
+                        <ul>
+                           <li><span></span>소비자의 책임 있는 사유로 상품 등이 손실 또는 훼손된 경우</li>
+                           <li><span></span>소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우<br>
+                              <em>예) 만화, 잡지, 수험서 및 문제집류</em></li>
+                           <li><span></span>복제가 가능한 상품 등의 포장을 훼손한 경우<br>
+                              <em>예) 음반/DVD/비디오, 소프트웨어, 만화책, 잡지, 영상 화보집</em></li>
+                           <li><span></span>소비자의 요청에 따라 개별적으로 주문 제작되는 상품의 경우</li>
+                           <li><span></span>디지털 컨텐츠인 eBook, 오디오북 등을 1회 이상 다운로드를 받았을 경우</li>
+                           <li><span></span>시간의 경과에 의해 재판매가 곤란한 정도로 가치가 현저히 감소한 경우</li>
+                           <li><span></span>전자상거래 등에서의 소비자보호에 관한 법률이 정하는 소비자 청약철회 제한 내용에 해당되는 경우</li>
+                        </ul>
+                     </td></tr>
+                  <tr><th>상품 품절</th>
+                     <td>공급사(출판사) 재고 사정에 의해 품절/지연될 수 있으며, 품절 시 관련 사항에 대해서는 이메일과 문자로 안내드리겠습니다.</td></tr>
+                  <tr><th>소비자 피해보상<br>
+                     환불지연에 따른 배상</th>
+                     <td>
+                        <ul>
+                           <li><span></span>상품의 불량에 의한 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁 해결 기준 (공정거래위원회 고시)에 준하여 처리됨</li>
+                           <li><span></span>대금 환불 및 환불지연에 따른 배상금 지급 조건, 절차 등은 전자상거래 등에서의 소비자 보호에 관한 법률에 따라 처리함</li>
+                        </ul>
+                     </td></tr>
+               </tbody>
+            </table>
+            </div>
+         </section>
+         
+
+
+
+
+
+         <script>
+             $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "소설" },
+        headers: { Authorization: "KakaoAK ed3a1a3ff73773a1bdc8f424bf83a53a" }
+      })
+        .done(function (msg) {
+          
+
+         
+          const divs = $('.b4_sub_box1');
+          for(let i = 0; i < divs.length; i++) {
+            // sub1          
+          $(".b4_sub_box1").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+          $(".b4_sub_box1").eq(i).append("<h5>" + msg.documents[i].title + "</h5>");
+          
+          let str = msg.documents[i].contents;
+          let str2 = str.substring(0, 600);
+          }         
+          
+        });
+
+                  $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "히가시노 게이고" },
+        headers: { Authorization: "KakaoAK ed3a1a3ff73773a1bdc8f424bf83a53a" }
+      })
+        .done(function (msg) {
+
+         console.log(msg);
+         const origin = msg.documents;
+         let data = origin.filter((val)=>{
+            return val.thumbnail !="&& val.contents !=";
+         })
+          console.log(data);
+
+          const divs = $('.b4_sub_box2');
+          for(let i = 0; i < divs.length; i++) {
+            // sub1          
+          $(".b4_sub_box2").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+          $(".b4_sub_box2").eq(i).append("<h5>" + msg.documents[i].title + "</h5>");
+          
+          let str = msg.documents[i].contents;
+          let str2 = str.substring(0, 600);
+          }         
+          
+        });
+
+     
+         </script>
+
+
+
+         <footer>
+            <div class="foo_in">
+               <div class="foo_1">
+                  <h1>(주) 밀리의 서재</h1>
+                  <ul>
+                     <li><a href="#" target="_blank" class="inst"></a></li>
+                     <li><a href="#" class="yotu"></a></li>
+                     <li><a href="#" class="kaka"></a></li>
+                  </ul>
+               </div>
+               <button type="button" class="btn">사업자 정보 펼쳐보기</button>
+               <ul class="sev_list">
+                  <li><a href="#">이용약관</a></li>
+                  <li><a href="#">개인정보처리방침</a></li>
+                  <li><a href="#">청소년보호정책</a></li>
+                  <li><a href="#">고객센터</a></li>
+                  <li><a href="#">B2B문의</a></li>
+                  <li><a href="#">콘텐츠제휴문의</a></li>
+                  <li><a href="#">뷰어다운로드</a></li>
+                  <li><a href="#">회사소개</a></li>
+               </ul>
+               <p>Copyright © 2024 밀리의 서재 All Rights Reserved.</p>
+            </div>
+         </footer>
+      
+   
+</body>
+
+</html>
